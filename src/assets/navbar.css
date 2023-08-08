@@ -1,0 +1,50 @@
+.navbar {
+    clear:both;
+    float:left;
+    margin-top:1em;
+    padding-bottom:1em;
+    width:100%;
+    background-color:inherit;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right:10%;
+    background-color: #4180dd;
+}
+
+.navbar li a:hover {
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #dd417f;
+}
+
+.navbar li a {
+    color:#FFFFFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+.navbar li:active a {
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar li:active {
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #dd417f;
+}
