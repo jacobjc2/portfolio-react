@@ -2,7 +2,7 @@
     clear:both;
     float:left;
     margin-top:1em;
-    padding-bottom:1em;
+    padding-bottom:2em;
     width:100%;
     background-color:inherit;
     text-align: center;
@@ -13,7 +13,7 @@
     border: 3px solid black;
     border-radius: 10px;
     margin-right:10%;
-    background-color: #4180dd;
+    background-color:lightblue;
 }
 
 .navbar li a:hover {
@@ -29,7 +29,7 @@
 }
 
 .navbar li a {
-    color:#FFFFFF;
+    color:black;
     font-size: 1.2em;
     text-transform: uppercase;
     text-decoration: none;

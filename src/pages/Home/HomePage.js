@@ -1,5 +1,7 @@
+import { ProfileImage } from "../../components/ProfileImage"
+
 export const HomePage = () => {
     return (
-        <h1>HomePage</h1>
+        <ProfileImage></ProfileImage>
     );
 }

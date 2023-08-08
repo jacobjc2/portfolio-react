@@ -1,0 +1,13 @@
+.profile-container {
+    display: flex;
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow:hidden;
+}
+
+.profile-container img {
+    width:100%;
+    height:auto;
+}
