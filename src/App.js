@@ -10,11 +10,8 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div class="App-header">
-        <Navbar/>
-      </div>
-      <div>
         <Router>
+        <Navbar/>
           <Routes>
             <Route index element={<HomePage/>}/>
             <Route path='experience' element={<ExperiencePage/>}/>
@@ -22,7 +19,6 @@ function App() {
             <Route path='contact' element={<ContactPage/>}/>
           </Routes>
         </Router>
-      </div>
     </div>
   );
 }
