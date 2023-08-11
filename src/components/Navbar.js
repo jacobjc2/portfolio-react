@@ -32,7 +32,7 @@ export const Navbar = () => {
     ]
 
     return (
-        <div className="flex justify-between items-center w-full h-20 text-white bg-indigo-950 px-4 fixed">
+        <div className="flex justify-between items-center w-full h-20 text-white bg-slate-950 px-4 fixed">
             <div>
                 <a href="/">
                 <img className="object-scale-down h-20 px-4" src={logo_white} alt="logo"/>
@@ -51,7 +51,7 @@ export const Navbar = () => {
 
             {nav && (
                 <ul className="flex flex-col justify-center items-center absolute top-0 left-0 
-                w-full h-screen bg-gradient-to-b from-indigo-950 to-violet-800 text-gray-200 bg-grad">
+                w-full h-screen bg-gradient-to-b from-slate-950 to-slate-800 text-gray-200 bg-grad">
                     {links.map(({id, link, href}) => (
                         <li key={id} className="px-4 cursor-pointer capitalize text-4xl py-6">
                             <Link to={href}>{link}</Link>
