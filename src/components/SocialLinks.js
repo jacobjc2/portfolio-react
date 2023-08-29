@@ -9,19 +9,19 @@ export const SocialLinks = () => {
         <ul className="flex flex-row w-full justify-between">
             <li className='flex justify-between items-start w-14 h-14'>
                 <a href='https://www.linkedin.com/in/jacob-christensen-23a8b5134/' 
-                className='text-white' target='_blank'>
+                className='text-white' target='_blank' rel='noreferrer'>
                     <FaLinkedin size={45} />
                 </a>
             </li>
             <li className='flex justify-between items-center w-14 h-14'>
                 <a href='https://github.com/jacobjc2' 
-                className='text-white' target='_blank'>
+                className='text-white' target='_blank' rel='noreferrer'>
                     <FaGithub size={45} />
                 </a>
             </li>
             <li className='flex justify-between items-center w-14 h-14'>
                 <a href='mailto:jacobjc2@gmail.com'
-                className='text-white' target='_blank'>
+                className='text-white' target='_blank' rel='noreferrer'>
                     <HiOutlineMail size={45} />
                 </a>
             </li>

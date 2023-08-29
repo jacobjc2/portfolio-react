@@ -22,7 +22,7 @@ export const HomePage = () => {
                         <SocialLinks/>
                     </div>
                     <div>
-                        <a href='/resume.pdf' target='_blank'>
+                        <a href='/resume.pdf' target='_blank' rel='noreferrer'>
                             <button className="group text-white w-fit px-6 py-3 my-2 flex items-center 
                             rounded-md bg-gradient-to-r from-emerald-800 to-emerald-600 cursor-pointer">
                                 Resume
