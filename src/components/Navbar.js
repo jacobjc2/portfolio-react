@@ -54,7 +54,7 @@ export const Navbar = () => {
                 w-full h-screen bg-gradient-to-b from-slate-950 to-slate-800 text-gray-200 bg-grad">
                     {links.map(({id, link, href}) => (
                         <li key={id} className="px-4 cursor-pointer capitalize text-4xl py-6">
-                            <Link to={href}>{link}</Link>
+                            <Link onClick={() => setNav(!nav)} to={href}>{link}</Link>
                         </li>
                     ))}
                 </ul>
