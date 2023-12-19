@@ -59,11 +59,23 @@ export const ExperiencePage = () => {
 
   const work_exp = [
     {
-        id: 1,
+      id: 1,
+      title: 'Business System Analyst',
+      company: 'Weimer Bearing & Transmission',
+      start_date: 'October 2023',
+      end_date: 'Present',
+      desc_points: [
+        {task: 'Developed and maintained several branch websites for Weimer and subsidiary companies'},
+        {task: 'Delivered product reporting and dashboarding platforms'},
+        {task: 'Owned Epicor P21 ERP platform'}
+      ]
+    },
+    {
+        id: 2,
         title: 'Sr. Technical Product Manager',
         company: 'GE HealthCare',
         start_date: 'August 2022',
-        end_date: 'Current',
+        end_date: 'October 2023',
         desc_points: [
           {task: 'Managed $2 million project for the migration of HR data warehouse from Azure/Oracle to GE HealthCare AWS Data Platform'},
           {task: 'Developed and executed a data and integration migration plan for 200+ enterprise integrations'},
@@ -71,7 +83,7 @@ export const ExperiencePage = () => {
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: 'Digital Technology Development Program',
         company: 'GE HealthCare',
         start_date: 'July 2020',
@@ -84,7 +96,7 @@ export const ExperiencePage = () => {
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: 'Digital Technology Intern',
         company: 'GE HealthCare',
         start_date: 'May 2019',
@@ -95,7 +107,7 @@ export const ExperiencePage = () => {
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: 'Software Development Intern',
         company: 'Brady Corporation',
         start_date: 'Sept 2018',
@@ -129,26 +141,6 @@ export const ExperiencePage = () => {
             
           </div>
           <div className="basis-3/4 px-12">
-            <div className='flex flex-col py-4'>
-              <h2 className="text-4xl sm:text-4xl py-4 font-bold text-white">Education</h2>
-              <div className="flex flex-row text-gray-200 text-lg justify-between">
-                <h4>
-                  Bachelor's of Science - Computer Engineering
-                </h4>
-                <p>
-                  Grad: 2020
-                </p>
-              </div>
-              <p className="text-gray-200 text-lg">Milwaukee School of Engineering<br/></p>
-              <p className="text-gray-400">
-                GPA: 3.95 <br/>
-              </p>
-              <p className="text-gray-400">
-                Relevant Coursework: Embedded Systems and Advanced Embedded Systems, Software Development, 
-                Software Tools & Practices, Networking, Digital Electronics, Linear Circuits - Steady State and Transients, 
-                Digital Signal Processing, Intro to Data Science, Intro to Cyber Security, Network Security
-              </p>
-            </div>
             <div className="flex flex-col py-4">
               <h2 className="basis-3/4 text-4xl sm:text-4xl py-4 font-bold text-white">Work Experience</h2>
               <div className="flex flex-col">
@@ -166,12 +158,6 @@ export const ExperiencePage = () => {
                 ))}
               </div>
             </div>
-            
-
-            <h2 className="basis-3/4 text-4xl sm:text-4xl py-4 font-bold text-white">Certifications</h2>
-            <p className="text-gray-400 max-w-xl">
-              Microsoft Azure Fundamentals        
-            </p>
           </div>
         </div>
     </div>

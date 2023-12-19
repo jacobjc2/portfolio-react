@@ -21,14 +21,14 @@ export const Navbar = () => {
         },
         {
             id: 3,
-            link: 'Projects',
-            href: 'projects'
+            link: 'Education',
+            href: 'education'
         },
         {
             id: 4,
-            link: 'Contact',
-            href: 'contact'
-        },
+            link: 'Projects',
+            href: 'projects'
+        }
     ]
 
     return (
